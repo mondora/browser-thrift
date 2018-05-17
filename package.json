@@ -1,12 +1,24 @@
 {
-  "name": "browser-thrift",
-  "version": "0.7.0",
-  "description": "Thrift binding for browser and nodejs",
+  "name": "@mondora/universal-thrift",
+  "description": "Thrift client for browser and nodejs",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./node.js",
   "browser": "./browser.js",
+  "authors": [
+    "Vadim Homchik",
+    "Paolo Scanferla <paolo.scanferla@mondora.com>"
+  ],
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vh/browser-thrift.git"
+    "url": "https://github.com/mondora/universal-thrift.git"
+  },
+  "homepage": "https://github.com/mondora/universal-thrift",
+  "bugs": {
+    "url": "https://github.com/mondora/universal-thrift/issues"
   },
   "keywords": [
     "thrift",
@@ -14,15 +26,6 @@
     "browserify",
     "universal"
   ],
-  "authors": [
-    "Vadim Homchik",
-    "Paolo Scanferla <paolo.scanferla@mondora.com>"
-  ],
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/vh/browser-thrift/issues"
-  },
-  "homepage": "https://github.com/vh/browser-thrift#readme",
   "dependencies": {
     "node-int64": "^0.4.0",
     "thrift": "^0.11.0"
